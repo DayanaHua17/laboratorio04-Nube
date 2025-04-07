@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio - Mi App</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f0f0f0, #e2ecf3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #007bff;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 10px;
+      font-size: 1.2em;
+      transition: background 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #0056b3;
+    }
+
+    .emoji {
+      margin-right: 10px;
+    }
+
+    @media (min-width: 600px) {
+      .links {
+        flex-direction: row;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>🚀 Bienvenido a Mi App
+  </h1>
+  <div class="links">
+    <a href="clientes.html"><span class="emoji">👤</span>Clientes</a>
+    <a href="productos.html"><span class="emoji">📦</span>Productos</a>
+  </div>
+</body>
+</html>
